@@ -15,11 +15,8 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Récupérer le code
         uses: actions/checkout@v4
@@ -38,6 +35,14 @@ jobs:
         with:
           path: _site
 
+  # Job séparé : le déploiement ne démarre qu'une fois l'artefact visible par l'API
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Déployer
         id: deployment
         uses: actions/deploy-pages@v4
