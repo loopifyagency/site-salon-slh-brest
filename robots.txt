@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://loopifyagency.github.io/site-salon-slh-brest/sitemap.xml

@@ -11,9 +11,17 @@ python3 -m http.server 8000
 
 Puis ouvrir <http://localhost:8000>. (Un double-clic sur `index.html` fonctionne aussi, mais un serveur local est préférable.)
 
-## Publier
+## Publier (GitHub Pages)
 
-Déposer le dossier tel quel chez n'importe quel hébergeur statique (GitHub Pages, Netlify, Cloudflare Pages, OVH…).
+Le site est publié par le workflow `.github/workflows/pages.yml` à chaque push sur `main`. Il ne publie que les fichiers du site (`index.html`, `css`, `js`, `assets`, `favicon.svg`, `robots.txt`, `sitemap.xml`).
+
+Adresse : <https://loopifyagency.github.io/site-salon-slh-brest/>
+
+Réglage à faire une seule fois : dans le dépôt, **Settings → Pages → Build and deployment → Source : GitHub Actions**.
+
+Avec un nom de domaine personnalisé, remplacer l'adresse ci-dessus dans `index.html` (`canonical`, `og:url`, `og:image`, `twitter:image`, JSON-LD), `sitemap.xml` et `robots.txt`.
+
+Le dossier peut aussi être déposé tel quel chez n'importe quel hébergeur statique (Netlify, Cloudflare Pages, OVH…).
 Aucune dépendance externe n'est chargée au runtime : GSAP, ScrollTrigger, SplitText, Lenis et les polices sont **hébergés localement** (pas de CDN, pas d'appel à Google Fonts).
 Seule la carte Google Maps est un contenu externe (iframe).
 
@@ -56,7 +64,7 @@ Typographies : **Young Serif** (titres) + **Figtree** (texte). Fil rouge : l'ond
 - **Photos** : les 5 photos fournies sont petites (≈ 200 à 250 px de large) et paraissent floues dès qu'elles sont agrandies. Remplacer les fichiers de `assets/img/slh-*.webp` par des originaux en haute définition (≥ 1600 px de large) améliorera beaucoup le rendu.
 - **Prestations et textes** : rédigés à partir de la brief et des avis, sans tarifs (aucun prix fourni). À valider ou ajuster.
 - **Chiffres clés** : uniquement des données vérifiables (jours et heures d'ouverture). Ajouter par exemple années d'expérience ou nombre de clients **si** le salon le souhaite.
-- **Nom de domaine** : une fois connu, ajouter `canonical`, `og:url`, et l'URL absolue de `og:image` dans `index.html` (`assets/img/og.jpg`), ainsi qu'un `sitemap.xml`.
+- **Nom de domaine** : si le salon prend un domaine personnalisé, mettre à jour les URL absolues (voir « Publier »).
 - **Réseaux sociaux** : aucun lien fourni, donc aucun affiché.
 - **Mentions légales** : à ajouter selon les informations de l'entreprise (raison sociale, SIRET, hébergeur).
 - **Avis** : reproduits mot pour mot, sans notes ni étoiles (la note n'était pas fournie).
