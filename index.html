@@ -1,0 +1,578 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Salon SLH Brest · Coiffeur femmes, enfants et mamies à Brest</title>
+  <meta name="description" content="Salon de coiffure à Brest, rue Auguste Kervern : coupe, couleur, balayage pour femmes, enfants et mamies. On vous écoute, on y va petit à petit. Rendez-vous au 02 98 43 10 01.">
+  <meta name="theme-color" content="#1b2c1f">
+  <meta name="color-scheme" content="light">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://loopifyagency.github.io/site-salon-slh-brest/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Salon SLH Brest">
+  <meta property="og:title" content="Salon SLH Brest · Le temps de vous écouter">
+  <meta property="og:description" content="Coupe, couleur, balayage pour femmes, enfants et mamies. Salon de coiffure au 75 rue Auguste Kervern, Brest. Rendez-vous au 02 98 43 10 01.">
+  <meta property="og:url" content="https://loopifyagency.github.io/site-salon-slh-brest/">
+  <meta property="og:image" content="https://loopifyagency.github.io/site-salon-slh-brest/assets/img/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Salon SLH Brest : « Le temps de vous écouter », coupe ondulée violet prune sur fond de mur végétal">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://loopifyagency.github.io/site-salon-slh-brest/assets/img/og.jpg">
+
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="preload" href="assets/fonts/young-serif-latin-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/figtree-latin-wght.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/img/slh-violet.webp" as="image" type="image/webp" fetchpriority="high">
+  <link rel="stylesheet" href="css/styles.css">
+  <noscript><style>.loader{display:none!important}</style></noscript>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HairSalon",
+    "name": "Salon SLH Brest",
+    "description": "Salon de coiffure à Brest : coupe, couleur et balayage pour femmes, enfants et mamies.",
+    "url": "https://loopifyagency.github.io/site-salon-slh-brest/",
+    "image": "https://loopifyagency.github.io/site-salon-slh-brest/assets/img/slh-accueil.webp",
+    "telephone": "+33298431001",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "75 Rue Auguste Kervern",
+      "postalCode": "29200",
+      "addressLocality": "Brest",
+      "addressCountry": "FR"
+    },
+    "hasMap": "https://maps.app.goo.gl/CpfJhrkiDaxDsKZ47",
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "09:00", "closes": "19:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "16:00" }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <!-- ============ Sprite d'icônes (trait 1.6, même graisse partout) ============ -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h16M14 6l6 6-6 6"/></symbol>
+      <symbol id="i-arrow-l" viewBox="0 0 24 24"><path d="M20 12H4M10 6l-6 6 6 6"/></symbol>
+      <symbol id="i-out" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></symbol>
+      <symbol id="i-close" viewBox="0 0 24 24"><path d="M5 5l14 14M19 5 5 19"/></symbol>
+      <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></symbol>
+      <symbol id="i-scissors" viewBox="0 0 24 24"><circle cx="6" cy="6.5" r="2.6"/><circle cx="6" cy="17.5" r="2.6"/><path d="M7.9 8.2 20 17.5M7.9 15.8 20 6.5"/></symbol>
+      <symbol id="i-drop" viewBox="0 0 24 24"><path d="M12 3c3.5 4.2 6 7 6 10.2a6 6 0 0 1-12 0C6 10 8.500 7.200 12 3z"/></symbol>
+      <symbol id="i-waves" viewBox="0 0 24 24"><path d="M3 10c2-2 4-2 6 0s4 2 6 0 4-2 6 0M3 16c2-2 4-2 6 0s4 2 6 0 4-2 6 0"/><circle cx="17.500" cy="4.800" r="1.500"/></symbol>
+      <symbol id="i-undo" viewBox="0 0 24 24"><path d="M8 4 3.500 8.500 8 13M3.500 8.500H14a6 6 0 0 1 0 12H8"/></symbol>
+      <symbol id="i-balloon" viewBox="0 0 24 24"><path d="M12 3a6 6 0 0 1 6 6c0 4-3.500 6.500-6 8-2.500-1.500-6-4-6-8a6 6 0 0 1 6-6z"/><path d="M12 17c-1.300 1.600 1.300 2.800 0 4.500"/></symbol>
+      <symbol id="i-comb" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="4.500" rx="1"/><path d="M6 10.500V18M9 10.500V18M12 10.500V18M15 10.500V18M18 10.500V18"/></symbol>
+      <!-- Monogramme SLH : le cadre carré est le fil rouge du site -->
+      <symbol id="mark" viewBox="0 0 100 100">
+        <rect x="2" y="2" width="96" height="96" fill="none" stroke="currentColor" stroke-width="2"/>
+        <text x="50" y="57" text-anchor="middle" class="mark__slh" fill="currentColor">SLH</text>
+        <text x="50" y="82" text-anchor="middle" class="mark__salon" fill="currentColor">SALON</text>
+      </symbol>
+    </defs>
+  </svg>
+
+  <a class="skip" href="#main">Aller au contenu</a>
+
+  <!-- ============ Préchargeur : rideau en deux plis, façon fauteuil velours ============ -->
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader__panel loader__panel--back"><span class="loader__edge"></span></div>
+    <div class="loader__panel loader__panel--front">
+      <span class="loader__edge"></span>
+      <div class="loader__center">
+        <svg class="loader__mark" viewBox="0 0 120 120" role="presentation">
+          <rect class="loader__frame" x="2" y="2" width="116" height="116" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          <text class="loader__slh" x="60" y="68" text-anchor="middle" fill="currentColor">SLH</text>
+          <text class="loader__sub" x="60" y="98" text-anchor="middle" fill="currentColor">SALON</text>
+        </svg>
+        <p class="loader__count"><span id="loaderNum">0</span><small>%</small></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="progress" aria-hidden="true"><i></i></div>
+
+  <!-- ============ Navigation ============ -->
+  <header class="nav" id="nav">
+    <a class="nav__logo" href="#top" aria-label="Salon SLH Brest, retour en haut">
+      <svg class="nav__mark" aria-hidden="true"><use href="#mark"/></svg>
+      <span class="nav__name">Salon SLH<small>Brest</small></span>
+    </a>
+    <nav class="nav__links" aria-label="Navigation principale">
+      <a href="#salon" class="link">Le salon</a>
+      <a href="#prestations" class="link">Prestations</a>
+      <a href="#galerie" class="link">Galerie</a>
+      <a href="#avis" class="link">Avis</a>
+      <a href="#infos" class="link">Venir</a>
+    </nav>
+    <a class="btn btn--small btn--magnetic nav__cta" href="tel:+33298431001">
+      <span class="btn__fill" aria-hidden="true"></span>
+      <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+      <span class="btn__label">Appeler</span>
+    </a>
+    <button class="nav__burger" id="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Ouvrir le menu">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <!-- Menu plein écran (mobile / tablette) -->
+  <div class="menu" id="menu" hidden>
+    <div class="menu__bg" aria-hidden="true"></div>
+    <nav class="menu__inner" aria-label="Menu">
+      <a href="#salon"><span>Le salon</span></a>
+      <a href="#prestations"><span>Prestations</span></a>
+      <a href="#galerie"><span>Galerie</span></a>
+      <a href="#avis"><span>Avis</span></a>
+      <a href="#infos"><span>Venir nous voir</span></a>
+      <a class="menu__call" href="tel:+33298431001"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg><span>02 98 43 10 01</span></a>
+    </nav>
+  </div>
+
+  <main id="main">
+
+    <!-- ============ 1. HERO ============ -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero__moss" data-hero="moss" aria-hidden="true"></div>
+      <div class="hero__veil" aria-hidden="true"></div>
+      <div class="hero__lines" data-hero="lines" aria-hidden="true"></div>
+      <div class="hero__frame" data-hero="frame" aria-hidden="true"><i></i></div>
+
+      <div class="hero__inner">
+        <h1 class="hero__title" id="hero-title" aria-label="Le temps de vous écouter.">
+          <span class="hero__line" aria-hidden="true"><span class="hero__word">Le temps</span></span>
+          <span class="hero__line" aria-hidden="true"><span class="hero__word">de vous</span></span>
+          <span class="hero__line hero__line--accent" aria-hidden="true"><span class="hero__word">écouter.</span><svg class="hero__wave" viewBox="0 0 320 22" aria-hidden="true" preserveAspectRatio="none"><path d="M2 11c10-12 20-12 30 0s20 12 30 0 20-12 30 0 20 12 30 0 20-12 30 0 20 12 30 0 20-12 30 0 20 12 30 0 20-12 30 0"/></svg></span>
+        </h1>
+        <p class="hero__lead" data-hero="lead">Coupe, couleur, balayage, pour les femmes, les enfants et les mamies. Vous montrez une photo, on y va petit à petit, et on retouche si besoin.</p>
+        <div class="hero__cta" data-hero="cta">
+          <a class="btn btn--primary btn--magnetic" href="tel:+33298431001">
+            <span class="btn__fill" aria-hidden="true"></span>
+            <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+            <span class="btn__label">Prendre rendez-vous</span>
+          </a>
+          <a class="link link--light" href="#prestations">Voir les prestations <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+        <p class="status" data-status data-hero="status"><span class="status__dot" aria-hidden="true"></span><span class="status__text">Mardi–vendredi 9&nbsp;h–19&nbsp;h · samedi 9&nbsp;h–16&nbsp;h</span></p>
+      </div>
+
+      <div class="hero__visual" aria-hidden="false">
+        <figure class="arch" data-hero="arch">
+          <div class="arch__mask"><img src="assets/img/slh-violet.webp" width="700" height="1165" alt="Coiffure ondulée violet prune, vue de profil, réalisée au Salon SLH" fetchpriority="high" decoding="async"></div>
+        </figure>
+        <figure class="tile" data-hero="tile">
+          <div class="tile__mask"><img src="assets/img/slh-balayage.webp" width="720" height="720" alt="Longs cheveux ondulés avec un balayage caramel, vus de dos" decoding="async"></div>
+        </figure>
+        <svg class="stamp" data-hero="stamp" viewBox="0 0 120 120" aria-hidden="true" focusable="false">
+          <defs><path id="stampCircle" d="M60 60m-45 0a45 45 0 1 1 90 0a45 45 0 1 1-90 0"/></defs>
+          <g class="stamp__ring"><text><textPath href="#stampCircle" textLength="280">Coupe · Couleur · Balayage · Brest · </textPath></text></g>
+          <use href="#mark" x="40" y="40" width="40" height="40" class="stamp__mark"/>
+        </svg>
+      </div>
+
+      <a class="hero__scroll" href="#salon" data-hero="scroll"><span>Défiler</span><i aria-hidden="true"></i></a>
+    </section>
+
+    <!-- ============ 2. MARQUEE ============ -->
+    <section class="marquee" aria-label="Nos savoir-faire en quelques mots">
+      <div class="marquee__tilt">
+        <div class="marquee__row" data-dir="-1">
+          <div class="marquee__track">
+            <span>Coupe</span><i aria-hidden="true"></i><span>Couleur</span><i aria-hidden="true"></i><span>Balayage</span><i aria-hidden="true"></i><span>Mèches</span><i aria-hidden="true"></i><span>Rattrapage</span><i aria-hidden="true"></i><span>Écoute</span><i aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="marquee__row marquee__row--alt" data-dir="1">
+          <div class="marquee__track">
+            <span>Familles</span><i aria-hidden="true"></i><span>Enfants</span><i aria-hidden="true"></i><span>Mamies</span><i aria-hidden="true"></i><span>Teinture</span><i aria-hidden="true"></i><span>Conseil</span><i aria-hidden="true"></i><span>Petit à petit</span><i aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 3. LE SALON : storytelling pinné ============ -->
+    <section class="story" id="salon" aria-labelledby="story-title">
+      <div class="story__intro">
+        <h2 class="h2" id="story-title" data-split>Petit à petit, <em>jusqu’au bon résultat.</em></h2>
+        <p class="lead" data-reveal>Notre méthode tient en quatre gestes. Rien de secret : c’est ce que racontent celles et ceux qui sont passés par le salon.</p>
+      </div>
+
+      <div class="story__stage" id="storyStage">
+        <ol class="story__rail" aria-hidden="true"><li></li><li></li><li></li><li></li></ol>
+
+        <article class="step step--arch" data-step>
+          <div class="step__text">
+            <h3 class="step__title">On vous accueille.</h3>
+            <p>Mur végétal, fauteuils en velours vert, lumière chaude : on pose le décor pour que vous puissiez poser vos épaules. Ici, on ne vous presse pas.</p>
+          </div>
+          <figure class="step__fig">
+            <div class="step__frame"><img src="assets/img/slh-accueil.webp" width="700" height="1165" alt="Accueil du Salon SLH : mur végétal avec le logo SLH, deux fauteuils en velours vert et comptoir noir cannelé" loading="lazy" decoding="async"></div>
+          </figure>
+        </article>
+
+        <article class="step step--square" data-step>
+          <div class="step__text">
+            <h3 class="step__title">On regarde votre photo.</h3>
+            <p>Vous montrez ce que vous avez en tête. Une photo, quelques mots, et on traduit en longueur, en nuance, en mouvement. On reformule avant de couper, pour être certains de parler de la même chose.</p>
+          </div>
+          <figure class="step__fig">
+            <div class="step__frame"><img src="assets/img/slh-salon.webp" width="700" height="1165" alt="Salle de coiffure du Salon SLH : fauteuils gris, sol en marbre noir et mur beige aux reliefs ondulés" loading="lazy" decoding="async"></div>
+          </figure>
+        </article>
+
+        <article class="step step--round" data-step>
+          <div class="step__text">
+            <h3 class="step__title">On y va petit à petit.</h3>
+            <p>Pas de grand coup de ciseaux qu’il faudrait rattraper ensuite. On avance par touches, on vérifie, on retouche si nécessaire. La lumière d’un balayage se construit comme ça aussi.</p>
+          </div>
+          <figure class="step__fig">
+            <div class="step__frame"><img src="assets/img/slh-balayage.webp" width="720" height="720" alt="Longs cheveux ondulés avec un balayage caramel, vus de dos" loading="lazy" decoding="async"></div>
+          </figure>
+        </article>
+
+        <article class="step step--arch" data-step>
+          <div class="step__text">
+            <h3 class="step__title">Le miroir a le dernier mot.</h3>
+            <p>Si quelque chose vous gêne, on le reprend. Vous repartez avec la coupe ou la couleur que vous aviez en tête, et l’envie de revenir.</p>
+          </div>
+          <figure class="step__fig">
+            <div class="step__frame"><img src="assets/img/slh-violet.webp" width="700" height="1165" alt="Coiffure ondulée violet prune, vue de profil, réalisée au Salon SLH" loading="lazy" decoding="async"></div>
+          </figure>
+        </article>
+
+        <svg class="story__stamp" viewBox="0 0 120 120" aria-hidden="true" focusable="false">
+          <defs><path id="stampCircle2" d="M60 60m-45 0a45 45 0 1 1 90 0a45 45 0 1 1-90 0"/></defs>
+          <g class="stamp__ring"><text><textPath href="#stampCircle2" textLength="280">Salon SLH · Brest · petit à petit · </textPath></text></g>
+        </svg>
+      </div>
+    </section>
+
+    <!-- ============ 4. PRESTATIONS : défilement horizontal ============ -->
+    <section class="services" id="prestations" aria-labelledby="serv-title">
+      <div class="edge edge--beige" aria-hidden="true"><span class="edge__wave"></span></div>
+      <div class="services__pin">
+        <div class="services__track" id="servTrack">
+          <div class="services__intro">
+            <h2 class="h2" id="serv-title" data-split>Ce qu’on fait <em>pour vous.</em></h2>
+            <p class="lead">Six façons de prendre soin de vos cheveux, pour toute la famille. Les tarifs dépendent de vos cheveux et de votre envie : un coup de fil et on vous répond.</p>
+            <p class="services__hint" aria-hidden="true"><span>Continuez à faire défiler</span><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></p>
+          </div>
+
+          <article class="card card--a" data-tilt>
+            <div class="card__glare" aria-hidden="true"></div>
+            <svg class="card__icon" aria-hidden="true"><use href="#i-scissors"/></svg>
+            <h3 class="card__title">Coupe femme</h3>
+            <p>On écoute ce que vous voulez, on coupe petit à petit, on retouche si besoin. Vous repartez avec la coupe de votre photo.</p>
+            <span class="card__tag">Femmes</span>
+          </article>
+
+          <article class="card card--photo card--b" data-tilt>
+            <img class="card__bg" src="assets/img/slh-balayage.webp" alt="" width="720" height="720" loading="lazy" decoding="async">
+            <div class="card__glare" aria-hidden="true"></div>
+            <div class="card__over">
+              <svg class="card__icon" aria-hidden="true"><use href="#i-waves"/></svg>
+              <h3 class="card__title">Balayage &amp; mèches</h3>
+              <p>De la lumière là où vous la voulez : un balayage fondu, des mèches nettes, pas de mauvaise surprise à la sortie.</p>
+              <span class="card__tag">Couleur</span>
+            </div>
+          </article>
+
+          <article class="card card--c" data-tilt>
+            <div class="card__glare" aria-hidden="true"></div>
+            <svg class="card__icon" aria-hidden="true"><use href="#i-balloon"/></svg>
+            <h3 class="card__title">Coupe enfant</h3>
+            <p>Les petites têtes aussi ont droit à leur moment : on prend le temps, on rassure, on rigole.</p>
+            <span class="card__tag">Enfants</span>
+          </article>
+
+          <article class="card card--photo card--d" data-tilt>
+            <img class="card__bg" src="assets/img/slh-violet.webp" alt="" width="700" height="1165" loading="lazy" decoding="async">
+            <div class="card__glare" aria-hidden="true"></div>
+            <div class="card__over">
+              <svg class="card__icon" aria-hidden="true"><use href="#i-drop"/></svg>
+              <h3 class="card__title">Couleur &amp; teinture</h3>
+              <p>Vous nous montrez une photo, on reproduit la teinte. Du naturel qui réveille au violet prune qui se remarque.</p>
+              <span class="card__tag">Couleur</span>
+            </div>
+          </article>
+
+          <article class="card card--e" data-tilt>
+            <div class="card__glare" aria-hidden="true"></div>
+            <svg class="card__icon" aria-hidden="true"><use href="#i-undo"/></svg>
+            <h3 class="card__title">Rattrapage</h3>
+            <p>Une coupe ou des mèches à reprendre après un autre salon ? Venez avec la photo de ce que vous vouliez : on regarde, on rattrape.</p>
+            <span class="card__tag">Toutes et tous</span>
+          </article>
+
+          <article class="card card--f" data-tilt>
+            <div class="card__glare" aria-hidden="true"></div>
+            <svg class="card__icon" aria-hidden="true"><use href="#i-comb"/></svg>
+            <h3 class="card__title">Pour mamie</h3>
+            <p>Une coupe qui tient, une mise en forme qui rend fière. Elle s’installe, on s’occupe du reste.</p>
+            <span class="card__tag">Mamies</span>
+          </article>
+
+          <div class="services__outro">
+            <p>Une question&nbsp;? Un doute sur la couleur&nbsp;?</p>
+            <a class="btn btn--primary btn--magnetic" href="tel:+33298431001">
+              <span class="btn__fill" aria-hidden="true"></span>
+              <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+              <span class="btn__label">02 98 43 10 01</span>
+            </a>
+          </div>
+        </div>
+        <div class="services__bar" aria-hidden="true"><i></i></div>
+      </div>
+    </section>
+
+    <!-- ============ 5. CHIFFRES ============ -->
+    <section class="figures" aria-labelledby="fig-title">
+      <div class="edge edge--sapin" aria-hidden="true"><span class="edge__wave"></span></div>
+      <div class="figures__inner">
+        <h2 class="h2 h2--light" id="fig-title" data-split>On est là <em>presque toute la semaine.</em></h2>
+        <div class="figures__list">
+          <div class="figure" data-figure>
+            <p class="figure__num" data-count="5">5</p>
+            <div class="figure__text"><h3>jours sur 7</h3><p>Du mardi au samedi. Le lundi et le dimanche, on recharge les batteries.</p></div>
+          </div>
+          <div class="figure figure--b" data-figure>
+            <p class="figure__num" data-count="47">47</p>
+            <div class="figure__text"><h3>heures par semaine</h3><p>De 9&nbsp;h à 19&nbsp;h du mardi au vendredi, jusqu’à 16&nbsp;h le samedi : de quoi trouver un créneau qui vous va.</p></div>
+          </div>
+          <div class="figure figure--c" data-figure>
+            <p class="figure__num" data-count="3">3</p>
+            <div class="figure__text"><h3>générations accueillies</h3><p>Mamie, maman, les enfants : toute la famille a sa place dans les fauteuils.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 6. GALERIE ============ -->
+    <section class="gallery" id="galerie" aria-labelledby="gal-title">
+      <div class="edge edge--creme" aria-hidden="true"><span class="edge__wave"></span></div>
+      <h2 class="h2 gallery__title" id="gal-title" data-split>Entrez, <em>regardez.</em></h2>
+      <div class="gallery__grid">
+        <figure class="shot shot--1" data-shot data-mask="curtain">
+          <button class="shot__btn" type="button" data-lightbox aria-label="Agrandir la photo : la façade du salon">
+            <span class="shot__frame"><img src="assets/img/slh-facade.webp" width="660" height="878" alt="Façade du Salon SLH à Brest : enseigne « Salon SLH » et logo en vitrine" loading="lazy" decoding="async"></span>
+            <span class="shot__cap"><span>La façade</span><svg class="icon" aria-hidden="true"><use href="#i-out"/></svg></span>
+          </button>
+        </figure>
+        <figure class="shot shot--2" data-shot data-mask="circle">
+          <button class="shot__btn" type="button" data-lightbox aria-label="Agrandir la photo : un balayage caramel">
+            <span class="shot__frame"><img src="assets/img/slh-balayage.webp" width="720" height="720" alt="Longs cheveux ondulés avec un balayage caramel, vus de dos" loading="lazy" decoding="async"></span>
+            <span class="shot__cap"><span>Balayage caramel</span><svg class="icon" aria-hidden="true"><use href="#i-out"/></svg></span>
+          </button>
+        </figure>
+        <figure class="shot shot--3" data-shot data-mask="rise">
+          <button class="shot__btn" type="button" data-lightbox aria-label="Agrandir la photo : l’accueil et le mur végétal">
+            <span class="shot__frame"><img src="assets/img/slh-accueil.webp" width="700" height="1165" alt="Accueil du Salon SLH : mur végétal avec le logo SLH, deux fauteuils en velours vert et comptoir noir cannelé" loading="lazy" decoding="async"></span>
+            <span class="shot__cap"><span>L’accueil et son mur végétal</span><svg class="icon" aria-hidden="true"><use href="#i-out"/></svg></span>
+          </button>
+        </figure>
+        <figure class="shot shot--4" data-shot data-mask="curtain">
+          <button class="shot__btn" type="button" data-lightbox aria-label="Agrandir la photo : un bob ondulé violet prune">
+            <span class="shot__frame"><img src="assets/img/slh-violet.webp" width="700" height="1165" alt="Coiffure ondulée violet prune, vue de profil, réalisée au Salon SLH" loading="lazy" decoding="async"></span>
+            <span class="shot__cap"><span>Violet prune</span><svg class="icon" aria-hidden="true"><use href="#i-out"/></svg></span>
+          </button>
+        </figure>
+        <figure class="shot shot--5" data-shot data-mask="circle">
+          <button class="shot__btn" type="button" data-lightbox aria-label="Agrandir la photo : la salle de coiffure">
+            <span class="shot__frame"><img src="assets/img/slh-salon.webp" width="700" height="1165" alt="Salle de coiffure du Salon SLH : fauteuils gris, sol en marbre noir et mur beige aux reliefs ondulés" loading="lazy" decoding="async"></span>
+            <span class="shot__cap"><span>La salle, ses fauteuils, son marbre</span><svg class="icon" aria-hidden="true"><use href="#i-out"/></svg></span>
+          </button>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ 7. AVIS ============ -->
+    <section class="reviews" id="avis" aria-labelledby="rev-title">
+      <div class="edge edge--mousse" aria-hidden="true"><span class="edge__wave"></span></div>
+      <div class="reviews__head">
+        <h2 class="h2 h2--light" id="rev-title" data-split>Vos mots, <em>mot pour mot.</em></h2>
+        <p class="lead lead--light" data-reveal>Cinq avis laissés par des clients du salon, reproduits tels quels.</p>
+      </div>
+
+      <div class="reviews__viewport" id="revViewport" data-lenis-prevent tabindex="0" role="group" aria-roledescription="carrousel" aria-label="Avis des clients du salon">
+        <ul class="reviews__track" id="revTrack">
+          <li class="review" aria-roledescription="diapositive" aria-label="1 sur 5">
+            <blockquote><p>Très satisfaite de mon expérience, <mark>coupe et balayage impeccable</mark>. Margaux est de très bon conseil. Ce salon est une vraie découverte. Merci.</p></blockquote>
+            <footer><span class="avatar" aria-hidden="true">C</span><cite>Cecile Le Guern</cite></footer>
+          </li>
+          <li class="review" aria-roledescription="diapositive" aria-label="2 sur 5">
+            <blockquote><p>Tout est parfait ! L'équipe est vraiment sympa et professionnel, et j'ai eu <mark>exactement la coupe que je voulais</mark>, merci à Sandra !🫶 Le tarif est aussi très raisonnable ❤️‍🩹</p></blockquote>
+            <footer><span class="avatar" aria-hidden="true">V</span><cite>Vanille Saunders</cite></footer>
+          </li>
+          <li class="review" aria-roledescription="diapositive" aria-label="3 sur 5">
+            <blockquote><p>Personnel agréable et à l’écoute, qui prend le temps de vraiment comprendre ce que vous souhaitez, en y allant <mark>petit à petit dans la coupe</mark>, et en retouchant après si nécessaire. Le salon est très propre, même en fin de journée, foncez !</p></blockquote>
+            <footer><span class="avatar" aria-hidden="true">A</span><cite>Amandine</cite></footer>
+          </li>
+          <li class="review" aria-roledescription="diapositive" aria-label="4 sur 5">
+            <blockquote><p>Je visite beaucoup de salon et j'ai une expérience différente? Mais sérieusement, je suis vraiment satisfait ici. Ils sont très gentils et font très bien leur travail. <mark>Je montre une photo et ils font la même teinture</mark> pour les cheveux. Je recommande vraiment. Et mon fils coupe les cheveux très bien et le prix est également très raisonnable. Suis si heureux enfin, je trouve un bon salon.</p></blockquote>
+            <footer><span class="avatar" aria-hidden="true">G</span><cite>Gul Malik</cite></footer>
+          </li>
+          <li class="review" aria-roledescription="diapositive" aria-label="5 sur 5">
+            <blockquote><p>Un grand merci à Margaux, un immense merci ! J'ai pris rdv pour rattraper une coupe et des mèches faites dans un autre salon. Elle a réussi, et pourtant, vu le désastre, <mark>je n'y croyais pas....</mark> merci beaucoup Margaux. Grâce à vous, je ne mets plus mes lunettes en bandeau ni mes cheveux derrière les oreilles pour cacher la catastrophe !</p></blockquote>
+            <footer><span class="avatar" aria-hidden="true">C</span><cite>Christine Nicolas</cite></footer>
+          </li>
+        </ul>
+      </div>
+
+      <div class="reviews__ctrl">
+        <button class="round-btn" id="revPrev" type="button" aria-label="Avis précédent"><svg class="icon" aria-hidden="true"><use href="#i-arrow-l"/></svg></button>
+        <div class="reviews__meter" aria-hidden="true"><i id="revBar"></i></div>
+        <p class="reviews__count" aria-live="polite"><span id="revNum">1</span> / 5</p>
+        <button class="round-btn" id="revNext" type="button" aria-label="Avis suivant"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+      </div>
+    </section>
+
+    <!-- ============ 8. BON À SAVOIR (FAQ) ============ -->
+    <section class="faq" id="faq" aria-labelledby="faq-title">
+      <div class="edge edge--creme" aria-hidden="true"><span class="edge__wave"></span></div>
+      <div class="faq__inner">
+        <div class="faq__side">
+          <h2 class="h2" id="faq-title" data-split>Avant <em>de venir.</em></h2>
+          <p class="lead" data-reveal>Les questions qu’on nous pose le plus souvent. Pour le reste, le téléphone est juste là.</p>
+        </div>
+        <div class="faq__list" data-reveal>
+          <details class="qa">
+            <summary><span>Comment prendre rendez-vous&nbsp;?</span><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></summary>
+            <div class="qa__body"><p>Par téléphone au <a class="link" href="tel:+33298431001">02 98 43 10 01</a>, aux heures d’ouverture. Un appel, et on trouve un créneau ensemble.</p></div>
+          </details>
+          <details class="qa">
+            <summary><span>Je peux venir avec une photo&nbsp;?</span><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></summary>
+            <div class="qa__body"><p>Oui, c’est même le meilleur point de départ. Montrez-nous la coupe ou la couleur que vous aimez : on vous dit franchement ce qui est possible sur vos cheveux.</p></div>
+          </details>
+          <details class="qa">
+            <summary><span>Vous coiffez aussi les enfants et les mamies&nbsp;?</span><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></summary>
+            <div class="qa__body"><p>Bien sûr. Le salon accueille les familles : les enfants, les mamies, et toutes celles qui veulent prendre soin de leurs cheveux.</p></div>
+          </details>
+          <details class="qa">
+            <summary><span>Et si la coupe ne me plaît pas tout à fait&nbsp;?</span><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></summary>
+            <div class="qa__body"><p>C’est pour ça qu’on y va petit à petit : on vérifie au fil de la coupe et on retouche si nécessaire. Dites-nous ce qui vous gêne.</p></div>
+          </details>
+          <details class="qa">
+            <summary><span>Combien ça coûte&nbsp;?</span><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></summary>
+            <div class="qa__body"><p>Le prix dépend de la prestation et de vos cheveux (longueur, couleur de départ). Appelez-nous au <a class="link" href="tel:+33298431001">02 98 43 10 01</a> pour un chiffre précis.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 9. APPEL À L'ACTION ============ -->
+    <section class="cta" id="rendez-vous" aria-labelledby="cta-title">
+      <div class="edge edge--mousse" aria-hidden="true"><span class="edge__wave"></span></div>
+      <div class="cta__moss" aria-hidden="true"></div>
+      <div class="cta__rings" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+      <div class="cta__inner">
+        <h2 class="cta__title" id="cta-title">Un rendez-vous&nbsp;?<br><em>Un coup de fil.</em></h2>
+        <a class="cta__phone" href="tel:+33298431001" aria-label="Appeler le salon : 02 98 43 10 01">
+          <span aria-hidden="true">02</span><span aria-hidden="true">98</span><span aria-hidden="true">43</span><span aria-hidden="true">10</span><span aria-hidden="true">01</span>
+        </a>
+        <a class="cta__button btn--magnetic" href="tel:+33298431001" aria-label="Appeler le salon">
+          <svg class="cta__ring" viewBox="0 0 120 120" aria-hidden="true" focusable="false">
+            <defs><path id="ctaCircle" d="M60 60m-47 0a47 47 0 1 1 94 0a47 47 0 1 1-94 0"/></defs>
+            <text><textPath href="#ctaCircle" textLength="294">Appeler · Prendre rendez-vous · </textPath></text>
+          </svg>
+          <span class="cta__disc"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg></span>
+        </a>
+        <p class="cta__hours">Mardi au vendredi 9&nbsp;h–19&nbsp;h · samedi 9&nbsp;h–16&nbsp;h<br>Fermé le lundi et le dimanche</p>
+      </div>
+    </section>
+
+    <!-- ============ 10. NOUS TROUVER ============ -->
+    <section class="find" id="infos" aria-labelledby="find-title">
+      <div class="edge edge--beige" aria-hidden="true"><span class="edge__wave"></span></div>
+      <div class="find__inner">
+        <div class="find__mapwrap"><div class="find__map" data-mask="curtain">
+          <div class="find__fallback" aria-hidden="true"><svg class="icon"><use href="#i-pin"/></svg><span>75 rue Auguste Kervern<br>29200 Brest</span></div>
+          <iframe src="https://www.google.com/maps?q=75+Rue+Auguste+Kervern,+29200+Brest&amp;output=embed" title="Carte Google Maps : Salon SLH, 75 rue Auguste Kervern, Brest" loading="lazy" referrerpolicy="no-referrer-when-downgrade" tabindex="-1"></iframe>
+          <a class="find__maplink" href="https://maps.app.goo.gl/CpfJhrkiDaxDsKZ47" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir le salon dans Google Maps (nouvel onglet)">
+            <span class="find__pill">Ouvrir dans Google Maps <svg class="icon" aria-hidden="true"><use href="#i-out"/></svg></span>
+          </a>
+        </div></div>
+        <div class="find__info">
+          <h2 class="h2" id="find-title" data-split>Nous <em>trouver.</em></h2>
+          <address class="find__address" data-reveal>
+            <p><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span>75 rue Auguste Kervern<br>29200 Brest</span></p>
+            <p><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg><a class="link" href="tel:+33298431001">02 98 43 10 01</a></p>
+          </address>
+          <p class="status status--dark" data-status data-reveal><span class="status__dot" aria-hidden="true"></span><span class="status__text">Horaires ci-dessous</span></p>
+          <table class="hours" data-reveal>
+            <caption class="sr-only">Horaires d’ouverture du salon</caption>
+            <tbody>
+              <tr data-day="1"><th scope="row">Lundi</th><td>Fermé</td></tr>
+              <tr data-day="2"><th scope="row">Mardi</th><td>9&nbsp;h – 19&nbsp;h</td></tr>
+              <tr data-day="3"><th scope="row">Mercredi</th><td>9&nbsp;h – 19&nbsp;h</td></tr>
+              <tr data-day="4"><th scope="row">Jeudi</th><td>9&nbsp;h – 19&nbsp;h</td></tr>
+              <tr data-day="5"><th scope="row">Vendredi</th><td>9&nbsp;h – 19&nbsp;h</td></tr>
+              <tr data-day="6"><th scope="row">Samedi</th><td>9&nbsp;h – 16&nbsp;h</td></tr>
+              <tr data-day="0"><th scope="row">Dimanche</th><td>Fermé</td></tr>
+            </tbody>
+          </table>
+          <a class="btn btn--primary btn--magnetic" href="https://maps.app.goo.gl/CpfJhrkiDaxDsKZ47" target="_blank" rel="noopener noreferrer" data-reveal>
+            <span class="btn__fill" aria-hidden="true"></span>
+            <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>
+            <span class="btn__label">Itinéraire<span class="sr-only"> (nouvel onglet)</span></span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="edge edge--sapin" aria-hidden="true"><span class="edge__wave"></span></div>
+    <div class="footer__top">
+      <a class="footer__brand" href="#top" aria-label="Salon SLH Brest, retour en haut">
+        <svg aria-hidden="true"><use href="#mark"/></svg>
+      </a>
+      <nav class="footer__col" aria-label="Plan du site">
+        <a class="link link--light" href="#salon">Le salon</a>
+        <a class="link link--light" href="#prestations">Prestations</a>
+        <a class="link link--light" href="#galerie">Galerie</a>
+        <a class="link link--light" href="#avis">Avis</a>
+        <a class="link link--light" href="#faq">Avant de venir</a>
+      </nav>
+      <div class="footer__col">
+        <p>75 rue Auguste Kervern<br>29200 Brest</p>
+        <a class="link link--light" href="tel:+33298431001">02 98 43 10 01</a>
+        <a class="link link--light" href="https://maps.app.goo.gl/CpfJhrkiDaxDsKZ47" target="_blank" rel="noopener noreferrer">Google Maps<span class="sr-only"> (nouvel onglet)</span></a>
+      </div>
+      <div class="footer__col">
+        <p>Mardi–vendredi 9&nbsp;h–19&nbsp;h<br>Samedi 9&nbsp;h–16&nbsp;h<br>Fermé lundi et dimanche</p>
+      </div>
+    </div>
+    <div class="footer__giant" id="giant" aria-hidden="true">
+      <span>S</span><span>A</span><span>L</span><span>O</span><span>N</span><span class="gap"></span><span>S</span><span>L</span><span>H</span>
+    </div>
+    <p class="footer__legal">© <span id="year">2026</span> Salon SLH Brest · 75 rue Auguste Kervern, 29200 Brest</p>
+  </footer>
+
+  <aside aria-label="Appel rapide">
+    <a class="fab" id="fab" href="tel:+33298431001" aria-label="Appeler le salon : 02 98 43 10 01">
+      <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg><span>Appeler</span>
+    </a>
+  </aside>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Photo agrandie">
+    <button class="lightbox__close round-btn" type="button" data-lb-close aria-label="Fermer"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button>
+    <button class="lightbox__nav lightbox__nav--prev round-btn" type="button" data-lb-prev aria-label="Photo précédente"><svg class="icon" aria-hidden="true"><use href="#i-arrow-l"/></svg></button>
+    <figure class="lightbox__fig"><img id="lbImg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" width="700" height="1000"><figcaption id="lbCap"></figcaption></figure>
+    <button class="lightbox__nav lightbox__nav--next round-btn" type="button" data-lb-next aria-label="Photo suivante"><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+  </dialog>
+
+  <script src="assets/vendor/gsap.min.js" defer></script>
+  <script src="assets/vendor/ScrollTrigger.min.js" defer></script>
+  <script src="assets/vendor/SplitText.min.js" defer></script>
+  <script src="assets/vendor/lenis.min.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
